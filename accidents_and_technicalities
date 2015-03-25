@@ -1,0 +1,20 @@
+#!/bin/bash
+
+connection=0
+happiness=0
+
+# Accidents
+
+date=`gdate -d @$(((${RANDOM}${RANDOM}%(2147483580 - -2147483640))+-2147483640))`
+echo $date
+for freetime in {1..57}; do 
+	date=$date
+	let "connect++"
+	let "happiness++"
+done
+
+# Technicalities
+wc missed-it-by.ans
+
+gmv \ /on gether
+gmv \ /on another

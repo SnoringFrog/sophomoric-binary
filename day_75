@@ -1,0 +1,7 @@
+days = []
+for x in range(0,75+1):
+	days.append(x)
+try:
+	print(days[75])
+except Exception, e:
+	print(e)
